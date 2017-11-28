@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SqlReaditor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="SqlReaditor - Kim Olsen" Height="600" Width="600" Background="LightSeaGreen">
+    <Border Background="black" CornerRadius="20" Margin="15">
+        <Grid>
+            <Label Content="SqlReaditor" Foreground="White" HorizontalAlignment="Center"></Label>
+
+        </Grid>
+    </Border>
 </Window>

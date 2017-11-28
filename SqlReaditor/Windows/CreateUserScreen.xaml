@@ -1,0 +1,24 @@
+﻿<Window x:Class="SqlReaditor.Windows.CreateUserScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SqlReaditor.Windows"
+        mc:Ignorable="d"
+        Title="CreateUserScreen" Height="440" Width="350" Background="LightSeaGreen">
+    <Border Background="Black" CornerRadius="20" Margin="15">
+        <StackPanel Margin="20">
+            <Label Content="Create User" Foreground="White" FontSize="25" HorizontalAlignment="Center"></Label>
+            <Separator Background="LightSeaGreen"></Separator>
+            <Label Content="Username" Foreground="white"></Label>
+            <TextBox Name="txtCreateUsername" Background="LightGray" Height="28"></TextBox>
+            <Label Content="Connectionstring" Foreground="White"></Label>
+            <TextBox Name="txtConnectionstring" Background="LightGray" Height="28"></TextBox>
+            <Label Content="Password" Foreground="White"></Label>
+            <TextBox Name="txtCreatePassword" Background="LightGray" Height="28"></TextBox>
+            <Label Content="Confirm Password" Foreground="White"></Label>
+            <TextBox Name="txtConfirmPassword" Background="LightGray" Height="28"></TextBox>
+            <Button Content="Create User" Name="btnCreateUser" Margin="60 15"></Button>
+        </StackPanel>
+    </Border>
+</Window>
