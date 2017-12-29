@@ -14,7 +14,7 @@
             <TextBox Name="txtUsername" Background="LightGray" Height="28"></TextBox>
             <Label Content="Password" Foreground="White"></Label>
             <PasswordBox Name="txtPassword" Background="LightGray" Height="28"></PasswordBox>
-            <Button Content="Submit" Name="btnSubmit" Margin="60 15"></Button>
+            <Button Content="Submit" Name="btnSubmit" Click="BtnSubmit_OnClick"  Margin="60 15"></Button>
             <Button Name="btnCreateUser" Content="Create new user" Click="BtnCreateUser_OnClickCreateUser_OnClick" Foreground="White" Background="Black" FontSize="10" HorizontalAlignment="Right" Style="{DynamicResource CreateUserButtonStyle}">
                 <Button.Resources>
                     <Style x:Key="FocusVisual">

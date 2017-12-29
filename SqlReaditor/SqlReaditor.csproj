@@ -55,6 +55,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Helpers\ConnectionStringHolder.cs" />
+    <Compile Include="Helpers\Crypting.cs" />
+    <Compile Include="Helpers\Hashing.cs" />
+    <Compile Include="Helpers\Salting.cs" />
+    <Compile Include="Helpers\SelectedItem.cs" />
     <Compile Include="Windows\CreateUserScreen.xaml.cs">
       <DependentUpon>CreateUserScreen.xaml</DependentUpon>
     </Compile>

@@ -13,12 +13,12 @@
             <Label Content="Username" Foreground="white"></Label>
             <TextBox Name="txtCreateUsername" Background="LightGray" Height="28"></TextBox>
             <Label Content="Connectionstring" Foreground="White"></Label>
-            <TextBox Name="txtConnectionstring" Background="LightGray" Height="28"></TextBox>
+            <TextBox x:Name="txtConnectionString" Background="LightGray" Height="28"></TextBox>
             <Label Content="Password" Foreground="White"></Label>
-            <TextBox Name="txtCreatePassword" Background="LightGray" Height="28"></TextBox>
+            <PasswordBox Name="txtCreatePassword" Background="LightGray" Height="28"></PasswordBox>
             <Label Content="Confirm Password" Foreground="White"></Label>
-            <TextBox Name="txtConfirmPassword" Background="LightGray" Height="28"></TextBox>
-            <Button Content="Create User" Name="btnCreateUser" Margin="60 15"></Button>
+            <PasswordBox Name="txtConfirmPassword" Background="LightGray" Height="28"></PasswordBox>
+            <Button Content="Create User" Name="btnCreateUser" Click="BtnCreateUser_OnClick" Margin="60 15"></Button>
         </StackPanel>
     </Border>
 </Window>

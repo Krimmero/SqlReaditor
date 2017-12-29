@@ -5,10 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SqlReaditor"
         mc:Ignorable="d"
-        Title="SqlReaditor - Kim Olsen" Height="600" Width="600" Background="LightSeaGreen">
+        Title="SqlReaditor - Kim Olsen" Height="800" Width="1280" Background="LightSeaGreen">
     <Border Background="black" CornerRadius="20" Margin="15">
-        <Grid>
+        <Grid x:Name="mainGrid">
             <Label Content="SqlReaditor" Foreground="White" HorizontalAlignment="Center"></Label>
+            <Button x:Name="btnLoadDB" Content="Load Database" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Click="btnLoadDB_Click"/>
+            <Label x:Name="lblUsername" Foreground="White" Content="User:" HorizontalAlignment="Left" Margin="375,10,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblUser" Content="" Foreground="White" HorizontalAlignment="Left" Margin="416,10,0,0" VerticalAlignment="Top" Width="136"/>
+            <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="90,80,0,0" VerticalAlignment="Top" Height="395" Width="585" AutoGenerateColumns="True" SelectionUnit="Cell"/>
+            <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="255" Margin="705,80,0,0" VerticalAlignment="Top" Width="265" />
+            <Button x:Name="btnList" Content="Button" HorizontalAlignment="Left" Margin="840,50,0,0" VerticalAlignment="Top" Width="75" Click="BtnList_OnClick"/>
 
         </Grid>
     </Border>
