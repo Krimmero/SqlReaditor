@@ -12,9 +12,9 @@
             <Button x:Name="btnLoadDB" Content="Load Database" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Click="btnLoadDB_Click"/>
             <Label x:Name="lblUsername" Foreground="White" Content="User:" HorizontalAlignment="Left" Margin="375,10,0,0" VerticalAlignment="Top"/>
             <Label x:Name="lblUser" Content="" Foreground="White" HorizontalAlignment="Left" Margin="416,10,0,0" VerticalAlignment="Top" Width="136"/>
-            <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="90,80,0,0" VerticalAlignment="Top" Height="395" Width="585" AutoGenerateColumns="True" SelectionUnit="Cell"/>
-            <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="255" Margin="705,80,0,0" VerticalAlignment="Top" Width="265" />
-            <Button x:Name="btnList" Content="Button" HorizontalAlignment="Left" Margin="840,50,0,0" VerticalAlignment="Top" Width="75" Click="BtnList_OnClick"/>
+            <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="90,80,0,0" VerticalAlignment="Top" Height="Auto" Width="Auto" AutoGenerateColumns="True" SelectionUnit="Cell"/>
+            <ListBox x:Name="listBox" HorizontalAlignment="Right" Height="255" Margin="945,80,50,0" VerticalAlignment="Top" Width="265" />
+            <Button x:Name="btnList" Content="Load Tabel" HorizontalAlignment="Right" Margin="1117,340,50,6" VerticalAlignment="Top" Width="75" Click="BtnList_OnClick"/>
 
         </Grid>
     </Border>
